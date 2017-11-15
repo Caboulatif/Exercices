@@ -1,0 +1,191 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    text-align: center;
+    width: 800px;
+    margin: 100px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+form input{
+    width: 4em;
+    height: 3em;
+    text-align: center;
+    background: #c7c2c2;
+    margin-right: 100px;
+}
+form button{
+    width: 10em;
+    height: 3em;
+    font-weight: bold;
+    color: white;
+    background:#64b149;
+}
+
+.titre{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+    border-bottom: 1px solid #c7c2c2;
+    font-weight: bold;
+    
+}
+
+form{
+    margin-top: 2em;
+    font-weight: bold;
+    
+}
+
+form label{
+    margin: 0px;
+}
+.message{
+    border-bottom: 1px solid #c7c2c2;
+    margin-top: 5%;
+    text-align: left;
+    font-weight: bold;
+    
+
+}
+
+.resutat{
+    font-weight: bold;
+}
+.message_1{
+    background: #fce8cc;
+    margin-top: 5%;
+    height: 50px;    
+
+}
+
+.message_2{
+    background: #db6c21;
+    margin-top: 5%;
+    height: 50px; 
+    /*display: none; */  
+
+}
+/*
+.p1, .p2{
+    display: none;
+
+html body div.container div.tatio{
+    text-align: left;
+}}*/
+html body div.container div.tatio span.soleil{
+    float: left;
+    margin-bottom:10px;
+}
+
+.soleil{
+text-align: left;
+font-weight: bold;
+font-size: 1.5em;
+}
+html body div.container div.tatio span.soleil span.rsoleil{
+    float: left;
+    font-weight:10; 
+    font-size: 0.5em;  
+}
+html body div.container div.tatio span.pluie{
+    float: right;
+    font-weight: bold;
+    font-size: 1.5em; 
+}
+html body div.container div.tatio span.pluie span.rpluie{
+    float: right;
+    font-weight:10; 
+    font-size: 0.5em;  
+}
+
+html body div.container div.tatio{
+    margin-bottom:10px;
+}
+
+.couleurDiv{
+    
+    height: 40px;
+    border-bottom: 1px solid #0f0f0f;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    
+
+    }
+    span.couleurorange{
+    display: inline-block;
+    width: 42%;
+    background: #f5c45a;
+    height: 40px;
+    }
+    html body div.container div.couleurDiv span.couleurvert{
+        display: inline-block;
+        width: 58%;
+        background:#3498db;
+        height: 40px;
+        
+        }
+
+.vueannuelle{
+    display:inline-block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: justify;
+
+}
+.sunny{
+    height: 15px;
+    width: 15px;
+}
+.space{
+    Word-Spacing: 5pt;
+}
+html body div.container div.message span.progress
+{
+    font-weight:5; 
+    font-size: 1em;  
+}
+.ligne1, .ligne2{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.fligne1{
+color: green;
+}
+.jligne1{
+    text-align: left;
+    color: green;
+    font-weight: bold;
+}
+.fligne2{
+    display: flex; 
+    justify-content: space-between;
+    color: red;
+    }
+.jligne2{
+        text-align: left;
+        color: red;
+        font-weight: bold;
+    }
+
+.aligne1, .aligne2{
+    color: #0f0f0f;
+}
+.anligne1, .anligne2{
+color:#0f0f0f;}
+
+.fsunny{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0px;
+}
+
+
+

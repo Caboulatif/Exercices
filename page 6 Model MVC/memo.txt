@@ -1,0 +1,43 @@
+
+
+
+_______________ LE MODELE MVC _______________ 
+ 
+Organiser son code selon l'architecture MVC : Modèle / Vue / Contrôleur
+    
+On utilise 3 dossiers à la racine de notre projet model/ view/ controller/    
+    
+    model/  Acces à la BDD, requetes SQL
+    view/ Gestion de l'affichage : html, echo...
+    controller/ droit d'accès, logique de calcul et décisions
+
+
+
+
+_______________ L'extention PDO _______________  
+
+(PDO) = PHP Data Objects, une extension définissant l'interface pour accéder à une base de données depuis PHP. 
+
+Objet $bdd PDO déclaré dans le fichier connexion_sql.php
+
+
+
+_______________ Construction d'une requete SQL simple _______________  
+
+Une fois connecté via PDO à la base de donnée :
+ 
+On sélectionne des champs dans une table (* = tous les champs)
+SELECT champ(s) FROM table ;
+
+On peut définir une première condition avec WHERE :
+SELECT champ(s) FROM table WHERE condition(s) ; 
+
+On peut définir d'autres conditions AND : 
+SELECT champ(s) FROM table WHERE condition(s) AND condition(s) ;
+
+On peut classer les résultats par ASC (ascendant) ou DESC (descendant) : 
+SELECT champ(s) FROM table WHERE condition(s) AND condition(s) ORDER BY colonne ASC ;
+
+On peut définir des limites en terme de nombre d'affichage : 
+SELECT champ(s) FROM table WHERE condition(s) AND condition(s) LIMIT max; 
+
